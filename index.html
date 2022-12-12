@@ -6,18 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Main Css -->
     <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <h1>
-        hello
-    </h1>
-    <img src="https://previews.dropbox.com/p/thumb/ABs5gb0JJKC4xBZKIEwLGH8_uN_uUlJkUmJGO8LuMyf1xzcktZ8RGALOeHv6kkEDsd1_BNsajmqrEWMnKP2Hz_-cNZheH8CsGgI407h-6KlBZ1WRHKHme_TA9X5U_FqEZtsexNMx-zg2OjeG_KqMav0nTRTEhd3bJzEP6VCcfRw2q_8sYo9YiP55LOXljA6T1jNEdFSqJAtMHYQ5LNVcNY8HYF5dAhtaklX5YGdVsWbRCqJ3fV1eUMpRqUdhAeMe1OeeOm6HVexIKVOVXANtxO7JjlLlOltwuhpKsBYu73CivIqYvdAiRaGcqR-Rx86uACiSzKJ6vuaI03ZMWbKhdNyzkF_63JDg6gSAmtcnLFIb-jqsz1oZnmayKbQllok5KY8/p.jpeg"
-        alt="" width="200px">
-    <hr>
-    <br><br>
+    <!--================== HEADER ==================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">HAL</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme Change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
 
+    <!--================== MAIN ==================-->
+    <main class="main">
+        <!--================== Home ==================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Htet Aung Linn</h1>
+                    <h3 class="home__education">Junior Fullstack Web Devloper</h3>
+                    <div class="home__buttons">
+                        <a download="" href="#" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="./image/Profile.png" alt="" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.facebook.com/HtetAungLinn443" class="home__social-link">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="https://github.com/HtetAungLinn443" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="" class="home__social-link">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--================== ABOUT ==================-->
+        <section class="about section" id="about">
+
+        </section>
+
+        <!--================== SKILLS ==================-->
+        <section class="skills section" id="skills">
+
+        </section>
+
+        <!--================== SERVICES ==================-->
+        <section class="services section" id="services">
+
+        </section>
+
+        <!--================== CONTACT ==================-->
+        <section class="contact section" id="contact">
+
+        </section>
+    </main>
 </body>
+
+<!-- main css -->
+<script src="./script.js"></script>
 
 </html>
